@@ -9,6 +9,7 @@ if (k<18) {
 }
 else {
 	JOptionPane.showInputDialog("who should be the president?");
+	
 }
 	
 	}

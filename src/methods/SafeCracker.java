@@ -28,7 +28,7 @@ public class SafeCracker {
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
 
-		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
+		int secretCode = 1000000 - wekncrzpasfdkjhcfjse;
 		
 			if (guess == secretCode) {
 				JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
@@ -48,5 +48,5 @@ public class SafeCracker {
 		}
 	}
 
-	final static int wekncrzpasfdkjhcfjse = new Random().nextInt(100);
+	final static int wekncrzpasfdkjhcfjse = new Random().nextInt(1000000);
 }
